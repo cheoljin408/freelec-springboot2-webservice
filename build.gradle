@@ -37,4 +37,6 @@ dependencies {
     implementation('org.springframework.session:spring-session-jdbc') // 권한 관련
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    testImplementation("org.springframework.security:spring-security-test") // 권한 관련
 }
